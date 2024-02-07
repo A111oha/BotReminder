@@ -5,7 +5,7 @@ using dotenv.net;
 using Telegram.Bot.Extensions;
 using Telegram.Bot.Exceptions;
 using Telegram.Bot.Types;
-using Telegram.Bot.Polling;
+using Telegram.Bot.Polling;   
 using Telegram.Bots.Extensions.Polling;
 using BotReminder;
 using Telegram.Bot.Types.ReplyMarkups;
@@ -14,7 +14,7 @@ using Telegram.Bot.Types.ReplyMarkups;
 
 internal class Program
 {
-    static ITelegramBotClient botClient = new TelegramBotClient("6638228611:AAFWu_tUCWY8yfpNa6aoFt3H-Ctsa0_rumA");
+    static ITelegramBotClient botClient = new TelegramBotClient(" ");
     private static Dictionary<long, Timer> chatReminders = new Dictionary<long, Timer>();
 
     public static async Task Main(string[] args)
